@@ -18,12 +18,10 @@ span{
 }
 
 img {
-	border: solid;
 	max-width: 75ch;
 	position:absolute;
 	z-index:0;
 }
-
 
 @media(max-width:999px){
 	body{
@@ -40,8 +38,5 @@ img {
 	}
 	#l{
 		color:#F33
-	}
-	#g{
-		filter:invert(1)
 	}
 }
