@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<title>Tu tá buscando o que?</title>
+		<title>Poh mêo, como?</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<link rel="stylesheet" href="./main.css" />
@@ -32,10 +32,10 @@
 |                                                                              |
 |                                                                              |
 |                                                                              |
-|                                                    "<b>Poh mêo, como tu chegou  |
-|                                                    como tu chegou até aqui?  |
-|                                                    vou te mandar <a href="https://codex-belphegor.github.io/">pra cá</a> em   |
-|                                                    <span id="timer">5</span> segundos</b>"               |
+|                                                     "<b>Poh mêo, como que tu    |
+|                                                      chegou até aqui? vou    |
+|                                                      te mandar  <a href="https://codex-belphegor.github.io/">pra cá</a> em    |
+|                                                      <span id="timer">5</span> segundos</b>.........."   |
 |                                                                              |
 |                                                                              |
 |                                                                              |
@@ -64,7 +64,7 @@
 		let timer = document.getElementById("timer");
 		let tempo = Number(timer.innerText);
 		setInterval(() => {
-			tempo -= 1;
+//			tempo -= 1;
 			if(!tempo) window.location = "https://codex-belphegor.github.io/"
 			timer.innerText = tempo;
 		}, 1000)
