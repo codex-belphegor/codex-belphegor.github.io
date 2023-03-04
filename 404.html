@@ -64,7 +64,7 @@
 		let timer = document.getElementById("timer");
 		let tempo = Number(timer.innerText);
 		setInterval(() => {
-//			tempo -= 1;
+			tempo -= 1;
 			if(!tempo) window.location = "https://codex-belphegor.github.io/"
 			timer.innerText = tempo;
 		}, 1000)
