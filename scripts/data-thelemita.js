@@ -74,7 +74,7 @@ let clicked = false;
 dataThelemica.addEventListener("click", () => {
 	if(!clicked) {
 		clicked = true;
-		navigator.clipboard.writeText(dataThelemica.innerText).then(() => {
+		navigator.clipboard.writeText(dataThelemica.innerText.trim()).then(() => {
 			const texto = dataThelemica.innerHTML;
 			dataThelemica.innerHTML = "<b style='color:green'>Copiado com sucesso!</b>"+' '.repeat(50);
 			setTimeout(() => {
