@@ -51,9 +51,9 @@ dataSpan.addEventListener("click", () => {
 		clicked = true;
 		navigator.clipboard.writeText(data.innerText.trim()).then(() => {
 			const texto = data.innerHTML;
-			dataSpan.innerHTML = "<b style='color:green'>Copiado com sucesso!</b>"+' '.repeat(50);
+			data.innerHTML = "<b style='color:green'>Copiado com sucesso!</b>"+' '.repeat(50);
 			setTimeout(() => {
-				dataSpan.innerHTML = texto;
+				data.innerHTML = texto;
 				clicked = false;
 			}, 2000);
 		},() => {});
